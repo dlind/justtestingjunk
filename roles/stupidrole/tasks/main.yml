@@ -1,0 +1,5 @@
+---
+  - name: "foobaz"
+    shell: echo foo > baz 
+    args:
+      chdir: /tmp/

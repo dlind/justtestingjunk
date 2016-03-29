@@ -1,0 +1,7 @@
+---
+#stupid test
+- name: run a really simple hello world thing te test out semaphore
+  hosts: all
+  sudo: yes
+  roles:
+    -  { role: stupidrole }
